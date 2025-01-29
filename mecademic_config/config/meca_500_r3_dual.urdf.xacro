@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="meca_500_r3">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import meca_500_r3 urdf file -->
+    <xacro:include filename="$(find mecademic_description)/urdf/meca_500_r3_dual.urdf.xacro" />
+
+</robot>
